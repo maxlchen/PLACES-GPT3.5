@@ -2,14 +2,35 @@
 
 Citation:
 ```commandline
-@inproceedings{chen2023places,
-  title={PLACES: Prompting Language Models for Social Conversation Synthesis},
-  author={Chen, Maximillian and Papangelis, Alexandros and Tao, Chenyang and Kim, Seokhwan and Rosenbaum, Andy and Liu, Yang and Yu, Zhou, and Hakkani-Tur, Dilek},
-  booktitle={Findings of the Association for Computational Linguistics: EACL 2023},
-  pages={to appear},
-  year={2023}
+@inproceedings{chen-etal-2023-places,
+    title = "{PLACES}: Prompting Language Models for Social Conversation Synthesis",
+    author = "Chen, Maximillian  and
+      Papangelis, Alexandros  and
+      Tao, Chenyang  and
+      Kim, Seokhwan  and
+      Rosenbaum, Andy  and
+      Liu, Yang  and
+      Yu, Zhou  and
+      Hakkani-Tur, Dilek",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.63",
+    pages = "844--868",
 }
 ```
+
+## PLACES-GPT3.5 Quick Info
+
+Below is a version of the dyadic data generated using PLACES with GPT 3.5-Turbo as the backbone:
+
+https://raw.githubusercontent.com/maxlchen/PLACES-GPT3.5/main/PLACES-GPT3.5-Dyadic.jsonlist
+
+A multiparty version of the data is coming shortly!
+
+PLACES-GPT3.5 is also featured in DialogStudio: https://github.com/salesforce/DialogStudio#loading-data
 
 ## Quick Start
 
